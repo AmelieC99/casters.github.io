@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Spantaran";
+    src: url("Fonts/Spantaran-GE2D.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/RobotoCondensed.ttf") format("truetype");
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(253, 247, 230);
+}
+
+h1 {
+    font-family: 'Spantaran', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-me {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oval-profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+h1 {
+    color: #001f3f;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.profile-info {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.favorite-song {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.passion-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.passion-list li {
+    margin: 5px 0;
+}
+
+h2 {
+    color: #001f3f;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    margin: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.follow-me-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    color: rgb(0, 0, 0); 
+    font-size: 30px; 
+    margin: 0 20px; 
+    transition: color 0.2s ease; 
+}
+
+.social-icons a:hover {
+    color: rgb(57, 154, 215);
+}
+    
+.football-image {
+    width: 160px;
+    height: 120px; 
+}
+
+.first-travel-outdoor-image {
+    width: 150px; 
+    height: 200px; 
+}
+
+.last-travel-outdoor-image {
+    width: 150px; 
+    height: 100px; 
+}
+
+.oval-profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.oval-profile-picture:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
